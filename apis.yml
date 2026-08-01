@@ -1,19 +1,51 @@
 aid: pointy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pointy.png
 name: Pointy
-description: Pointy is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pointy was an Irish retail-technology startup (pointy.com), founded by Mark
+  Cummins and Charles Bibby and backed by Seedcamp, that helped independent
+  brick-and-mortar retailers put their in-store inventory online by connecting a
+  simple barcode-scanning device or point-of-sale integration to a searchable
+  online product page. Google acquired Pointy in 2020 and has since fully folded
+  the product into Google's own tooling: pointy.com now redirects to Google
+  Business Profile support, and the former Pointy app is now Google's Local
+  Inventory app, which syncs in-store products to Google Search and Maps via POS
+  systems such as Clover, Square, and Lightspeed. Pointy no longer operates as an
+  independent company and publishes no standalone public API, developer portal,
+  or SDKs; this API Evangelist profile is retained as a portfolio-lead record and
+  historical marker rather than an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/pointy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: google
+x-acquired-year: 2020
 x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- Retail Technology
+- Local Commerce
+- Point of Sale
+- Inventory
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,14 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://pointy.com
+  url: https://pointy.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Acquired by Google (2020) and fully absorbed into Google Local Inventory;
+    pointy.com redirects to Google Business support, developer/api/docs
+    subdomains do not resolve, no well-known or API surface. No API artifacts to
+    create.
