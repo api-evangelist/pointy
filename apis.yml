@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://pointy.com', status: 301, note: 'declared website redirects to https://support.google.com/business/answer/9934993?utm_campaign=landingpage — a different registrable domain (pointy.com -> google.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pointy.png
 name: Pointy
 description: >-
